@@ -1,18 +1,18 @@
 
-# Song Recommendation Project
-## Introduction
+#Song Recommendation Project
+##Introduction
 This project aims to provide a song recommendation system utilizing Spotify's API and leveraging data from the top 1000 albums from Rate Your Music, a trusted platform for discovering alternative music. As a dedicated fan of alternative music, I found Rate Your Music to be an invaluable resource for exploring new tunes within the genre. The goal of this project is to utilize clustering algorithms to recommend songs with similar audio characteristics, drawing from the pool of tracks found within those 1000 albums.
 
-## Motivation
+##Motivation
 With the vast amount of music available today, it can be overwhelming for music enthusiasts to discover new tracks that align with their tastes. Traditional recommendation systems often fail to capture the nuances and preferences of niche genres like alternative music. By focusing on a curated selection of albums from Rate Your Music, this project aims to fill that gap by providing tailored recommendations specifically within the alternative music scene.
 
-## Methodology
+##Methodology
 Python has been the primary tool used throughout this project. Leveraging the Spotify API, we retrieve audio features for songs within the top 1000 albums listed on Rate Your Music. These audio features include metrics such as danceability, energy, tempo, etc., which are crucial in defining the sonic characteristics of a song.
 
-## Utilizing clustering algorithms, such as k-means, we group songs based on their audio features. This allows us to identify clusters of songs that share similar traits, thereby enabling us to recommend songs that are likely to appeal to fans of alternative music.
+##Utilizing clustering algorithms, such as k-means, we group songs based on their audio features. This allows us to identify clusters of songs that share similar traits, thereby enabling us to recommend songs that are likely to appeal to fans of alternative music.
 
-## Usage
+##Usage
 To utilize this recommendation system, users can simply input their favorite songs or artists, and the system will return a list of recommended tracks from the top 1000 alternative albums. This tool serves as a valuable resource for discovering new music within the alternative genre, tailored to individual preferences and tastes.
 
-## Conclusion
+##Conclusion
 In conclusion, this project offers a unique and efficient way for alternative music enthusiasts to explore and discover new tracks. By harnessing the power of Python, Spotify's API, and the curated data from Rate Your Music, we have created a robust recommendation system that is sure to enhance the music discovery experience for fans of alternative music.
